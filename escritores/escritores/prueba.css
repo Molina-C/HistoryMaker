@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color: black;}
+#contenedor{width:1200px;
+		height: auto;
+		margin:0;
+		
+}
+header{background-color:#6B60D5;
+		height: 100px;
+	display: block;
+	}
+#titulo{ height: 70px;
+		width: auto;
+		text-align: start;
+		float: left;
+		padding-left: 50px;
+		padding-bottom: 50px;
+		}
+#noti{color:white;
+		font-size: 40px;
+		text-align: center;}
+
+
+nav{text-align: center;
+	float: left;
+	}
+
+#tablamenu{
+	height: auto;
+	width: auto;
+	padding-left: 50px;
+	
+}
+.menu{font-size: 30px;  color:black;
+text-align: center;}
+#rank{
+	width: 35%;
+	height: 40px;
+	aling-content:center;
+}
+
+/* inicio carrusel */
+.slider {
+	width: 35%;
+	margin: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 150%;
+	list-style: none;
+	
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+	width: 95%;
+	list-style: none;
+}
+
+.slider li img {
+	width:auto;
+	height: 300px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+/* fin carrusel*/
+
+section{background-color: #ABABAB;
+	width: auto;
+	height: auto;
+	padding-left: 0;
+	padding-right: 100px;
+	padding-top: 15px;
+	display: flex;
+	float: left;
+	 }
+#tipos{
+	width: 800px;
+	height: auto;
+}
+#Generos{
+	width: 35%;
+	height: 40px;
+	aling-content:center;
+}
+.gen{
+	width: 800px;
+	height: 300px;
+	text-decoration: none;
+}
+.gneros {
+	float: left;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right:20px;
+	
+	list-style: none;	
+}
+.gneros a{
+	text-decoration: none;
+	color:black;
+}
+.gneros:hover{
+
+}
+
+#log{
+float: left;
+	height: auto;
+	width: auto;
+}
+
+#tipos{
+	float: left;
+	height: auto;
+	width: auto;
+}
+#misp{
+	background-color: blue;
+	width: 500px;
+	height: auto;
+	float: right;
+}
+
+.archivo{
+width: 400px;
+height: 900px;
+border: #FF0509;
+
+}
+
+footer{margin-top: auto;
+	background-color:#6B60D5;
+		width: auto;
+		height: 83px;
+		text-align: center;
+
+}
+
+hr {background-color: #A9B3FD;
+   border: 5px solid #A9B3FD;
+  border-radius: 10px;
+}

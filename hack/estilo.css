@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+#cont{
+	margin: auto;
+	width: 100%;
+	align-content: center;
+}
+
+#hed{
+	float: left;
+	height: 100px;
+	width: 100%;
+	background:#6B60D5;	
+}
+#title{
+	font-size: 40px;
+	text-align: start;
+	float: left;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	color: white;
+	
+	
+}
+#sect{
+	
+	
+	float: left;
+	margin-top: 20px;
+	margin-left:20px;
+	width: 100%;
+	height:720px;
+
+	color:#110F0F;
+	padding-top: 30px;
+		
+}
+#ima{
+
+  
+	width: 100%;
+
+}
+#op{
+	font-family: 'Newsreader', serif;
+	
+	text-align: left;
+	font-size: 60px;
+	color:#78003F;
+text-align:center
+}
+
+
+
+.egt { 
+	font-family: 'Handlee', cursive;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+
+
+
+
+#let { 
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 27px;
+}
+#reg
+{ 
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 25px;
+}
+#re{ 
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-style:oblique; 
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 30px;
+}
+.fin{
+	align-content: center
+		
+}
+
+.is {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-style:oblique; 
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 40px;
+}
+.images{
+	width: 100%;
+}
+.boton :hover{
+	width: 101%;
+	border-radius: 10px;
+}
+#bot{
+	background-color: antiquewhite;
+	border-radius: 10px;
+	
+}
+footer{margin-top: auto;
+	background-color:#6B60D5;
+		width: auto;
+		height: 83px;
+	text-align: center;}
